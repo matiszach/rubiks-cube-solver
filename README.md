@@ -42,12 +42,8 @@ D' U' D L L D' R' R' F R B2 L2 D 0
 
 # Example output:
 
-/*************************************/
-
 Found solution in 9 moves
 
 Checked 434457 positions in the proccess
 
 D' L2 B2 R' F' R2 D L2 U 
-
-/*************************************/
