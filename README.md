@@ -29,25 +29,26 @@ Hash map storing 20 billion positions (128 bits per position) would require abou
 # Usage
 
 To use the program you need to compile it first using c++ 17 or higher.
-
-'g++ -std=c++17 -o cubesolver cubesolver.cpp'
-
+```
+g++ -std=c++17 -o cubesolver cubesolver.cpp
+```
 then run it
-
+```
 ./cubesolver
-
+```
 Program takes as an input a list of moves in Rubik's cube move notation separated by a space or enter and a "0" indicating end of input.
 (there is a folder called examples with sample inputs)
 Program outputs optimal solution to the given cube position as a list of moves in the Rubik's cube move notation.
 
 ## Example input:
-
+```
 D' U' D L L D' R' R' F R B2 L2 D 0
-
+```
 ## Example output:
-
+```
 Found solution in 9 moves
 
 Checked 434457 positions in the proccess
 
-D' L2 B2 R' F' R2 D L2 U 
+D' L2 B2 R' F' R2 D L2 U
+```
