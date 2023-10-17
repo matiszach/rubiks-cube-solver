@@ -30,7 +30,7 @@ Hash map storing 20 billion positions (128 bits per position) would require abou
 
 To use the program you need to compile it first using c++ 17 or higher.
 
-~~~g++ -std=c++17 -o cubesolver cubesolver.cpp~~~
+`g++ -std=c++17 -o cubesolver cubesolver.cpp`
 
 then run it
 
