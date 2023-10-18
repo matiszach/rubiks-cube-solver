@@ -34,7 +34,7 @@ It is only requiered to store states visited from both sides in some hash maps.
 ## Final speed
 
 Now, using the meet in the middle technique the total number of visited states will be the size of the 10-th layer times 2 since the BFS runs from both sides. The number of states in the 10-th layer will be equal to about 10 billion (which can be shown by running a BFS).
-Therefore the program will have to visit about 20 billion position and store all of them in the hash map.
+Therefore the program will have to visit about 20 billion positions and store all of them in the hash map.
 
 Taking a relatively big constant factor of looking through 18 moves and 20 billion positions to visit, program will in the worst case scenario run for several hours up to a few days (depending on hardware)
 
@@ -52,6 +52,7 @@ then run it
 ```
 Program takes as an input a list of moves in Rubik's cube move notation separated by a space or enter and a "0" indicating end of input.
 (there is a folder called examples with sample inputs)
+
 Program outputs optimal solution to the given cube position as a list of moves in the Rubik's cube move notation.
 
 ## Example input:
