@@ -55,11 +55,11 @@ Program takes as an input a list of moves in Rubik's cube move notation separate
 
 Program outputs optimal solution to the given cube position as a list of moves in the Rubik's cube move notation.
 
-## Example input:
+## Example Input
 ```
 D' U' D L L D' R' R' F R B2 L2 D 0
 ```
-## Example output:
+## Example Output
 ```
 Found solution in 9 moves
 
