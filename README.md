@@ -1,5 +1,5 @@
 # rubiks-cube-solver
-Program for finding optimal Rubik's cube solution
+A program for finding optimal Rubik's cube solution
 # Description
 
 ## Initial idea
