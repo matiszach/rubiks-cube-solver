@@ -51,7 +51,7 @@ then run it
 ```
 ./cubesolver
 ```
-The program takes as an input a list of moves in [Rubik's cube move notation](https://jperm.net/3x3/moves) (without wide moves and cube rotations) separated by a space or enter and a "0" indicating the end of input.
+The program takes as an input a list of moves in [Rubik's cube move notation](https://jperm.net/3x3/moves) (face turns only) separated by a space or enter and a "0" indicating the end of input.
 (there is a folder called examples with sample inputs)
 
 The program outputs the optimal solution to the given cube position as a list of moves in the Rubik's cube move notation.
